@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <locale.h> //para arrumar o erro com os acentos
-#include <stdlib.h>  //para usar a função abs()
+#include <stdlib.h>  //para usar a funÃ§Ã£o abs()
 
 void update(int *a,int *b) {
     int atualA = *a;         
     int atualB = *b;         
 
     *a = atualA + atualB;      
-    *b = abs(atualA - atualB); // obtendo o valor absoluto da diferença (módulo)
+    *b = abs(atualA - atualB); // obtendo o valor absoluto da diferenÃ§a (mÃ³dulo)
 }
 
 int main (){
